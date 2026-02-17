@@ -1,22 +1,53 @@
 # Business Sales Performance Analytics
 
-## Objective
-Analyze sales data to identify revenue trends, top-selling products, high-value categories, and regional performance.
+## Project Overview
+This project analyzes retail business sales data to understand revenue patterns, product performance, and regional contribution. The goal is to extract meaningful business insights that support data-driven decision making.
 
-## Tools Used
-Python, Jupyter Notebook, Pandas, Matplotlib
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- GitHub
 
 ## Dataset
-Source: Kaggle / Open Dataset
+Superstore Sales Dataset containing 9800 sales records with customer, product, and region details.
 
-## Steps Performed
-- Data Cleaning
-- Exploratory Data Analysis
-- Visualization
-- Insights Generation
+## Data Preparation
+- Removed duplicate records
+- Converted order date to datetime format
+- Checked missing values
 
-## Key Insights
-(To be updated)
+## Analysis Performed
+
+### 1. Monthly Revenue Trend
+Analyzed monthly sales to understand seasonal patterns and demand fluctuations.
+
+### 2. Top Performing Products
+Identified top 10 products generating highest revenue.
+
+### 3. Regional Sales Performance
+Compared revenue contribution across different regions.
+
+## Key Findings
+- Sales show noticeable variation across months indicating seasonality
+- A small number of products generate large share of revenue
+- Certain regions consistently outperform others
+
+## Business Recommendations
+- Focus marketing campaigns in high performing regions
+- Maintain stock availability for top selling products
+- Offer discounts during low revenue months to stabilize sales
+
+## Visual Results
+
+### Monthly Sales Trend
+![Monthly Sales](images/monthly_sales.png)
+
+### Top Products
+![Top Products](images/top_products.png)
+
+### Regional Performance
+![Regional Sales](images/region_sales.png)
 
 ## Conclusion
-This project analyzes business sales performance and provides actionable insights.
+The analysis demonstrates how business decisions can be improved using data analytics. By focusing on high-value products and regions, companies can increase profitability and optimize inventory planning.
