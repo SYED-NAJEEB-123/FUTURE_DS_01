@@ -24,7 +24,8 @@ print(df.describe())
 df.drop_duplicates(inplace=True)
 
 # Convert Order Date to datetime
-df['Order Date'] = pd.to_datetime(df['Order Date'])
+df['Order Date'] = pd.to_datetime(df['Order Date'], dayfirst=True)
+
 
 
 # ---------- REVENUE TREND ----------
